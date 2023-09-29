@@ -22,7 +22,7 @@ git fetch
 git remote set-url origin $OLD_ORIGIN
 
 # set push default to simple
-git config —global push.default simple
+git config --global push.default simple
 
 # individually checkout to each branch and push
 git checkout master
